@@ -1,88 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Hustle Tools</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #2c3e50;
-            color: white;
-            padding: 1em 0;
-            text-align: center;
-        }
-        .container {
-            padding: 20px;
-        }
-        .tool {
-            background: white;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            padding: 20px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-        .tool h2 {
-            margin-top: 0;
-        }
-        .tool p {
-            margin-bottom: 10px;
-        }
-        .tool a {
-            display: inline-block;
-            padding: 10px 15px;
-            background: #3498db;
-            color: white;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        @media (max-width: 600px) {
-            .tool {
-                padding: 15px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Hustle Tools</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #F9FAFB;
+      color: #111827;
+    }
+    header {
+      background-color: #7F56D9;
+      padding: 2rem 1rem;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .tool-card {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+    .tool-card h3 {
+      margin-top: 0;
+      color: #7F56D9;
+    }
+    .cta {
+      background-color: #FF6B6B;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .cta a {
+      background-color: #22C55E;
+      padding: 0.75rem 1.5rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>AI Hustle Tools</h1>
-        <p>Top AI tools to boost your business and design game</p>
-    </header>
-    <div class="container">
-        <div class="tool">
-            <h2>Canva AI</h2>
-            <p>Create stunning designs using Canva’s powerful AI features.</p>
-            <a href="https://your-canva-affiliate-link-here.com" target="_blank">Visit Tool</a>
-        </div>
-        <div class="tool">
-            <h2>ChatGPT</h2>
-            <p>Use ChatGPT for smart writing, planning, and business automation.</p>
-            <a href="https://chat.openai.com/" target="_blank">Visit Tool</a>
-        </div>
-        <div class="tool">
-            <h2>Jasper AI</h2>
-            <p>Write marketing content fast using Jasper’s AI-powered copywriting tools.</p>
-            <a href="https://your-jasper-affiliate-link-here.com" target="_blank">Visit Tool</a>
-        </div>
+  <header>
+    <h1>AI Hustle Tools</h1>
+    <p>Your launchpad for productivity & passive income using AI</p>
+  </header>
+
+  <section class="tools-grid">
+    <div class="tool-card">
+      <h3>Canva</h3>
+      <p>Design anything fast with AI—perfect for content, social posts, and products.</p>
     </div>
-    <footer>
-        © 2025 AI Hustle Tools | Your Hustle Starts Here
-    </footer>
+    <div class="tool-card">
+      <h3>ChatGPT</h3>
+      <p>Automate writing, planning, and business ideas using AI chat technology.</p>
+    </div>
+    <div class="tool-card">
+      <h3>Notion AI</h3>
+      <p>Organize your workflows and documents smartly with AI assistance.</p>
+    </div>
+    <div class="tool-card">
+      <h3>Copy.ai</h3>
+      <p>Create marketing content, product descriptions, and ad copy in seconds.</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to boost your hustle?</h2>
+    <p>Explore more tools, tips, and AI workflows for creators and side hustlers.</p>
+    <a href="#">Start Exploring</a>
+  </section>
 </body>
 </html>
